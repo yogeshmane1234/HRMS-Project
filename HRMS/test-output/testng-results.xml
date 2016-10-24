@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="121480" started-at="2016-10-22T11:12:24Z" finished-at="2016-10-22T11:14:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="121480" started-at="2016-10-22T11:12:24Z" finished-at="2016-10-22T11:14:26Z">
+      <class name="PMSandTraining.Training.Yogesh.TrainingTest">
+        <test-method status="PASS" signature="baseLogin()[pri:0, instance:PMSandTraining.Training.Yogesh.TrainingTest@2706a7]" name="baseLogin" is-config="true" duration-ms="8975" started-at="2016-10-22T16:42:24Z" finished-at="2016-10-22T16:42:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseLogin -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:PMSandTraining.Training.Yogesh.TrainingTest@2706a7]" name="Login" duration-ms="8713" started-at="2016-10-22T16:42:33Z" finished-at="2016-10-22T16:42:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="ErroScreenshot(org.testng.ITestResult)[pri:0, instance:PMSandTraining.Training.Yogesh.TrainingTest@2706a7]" name="ErroScreenshot" is-config="true" duration-ms="12" started-at="2016-10-22T16:42:42Z" finished-at="2016-10-22T16:42:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=TrainingTest.Login()[pri:0, instance:PMSandTraining.Training.Yogesh.TrainingTest@2706a7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErroScreenshot -->
+        <test-method status="PASS" signature="SearchButton()[pri:0, instance:PMSandTraining.Training.Yogesh.TrainingTest@2706a7]" name="SearchButton" duration-ms="6802" started-at="2016-10-22T16:42:42Z" finished-at="2016-10-22T16:42:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchButton -->
+        <test-method status="PASS" signature="ErroScreenshot(org.testng.ITestResult)[pri:0, instance:PMSandTraining.Training.Yogesh.TrainingTest@2706a7]" name="ErroScreenshot" is-config="true" duration-ms="1" started-at="2016-10-22T16:42:49Z" finished-at="2016-10-22T16:42:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchButton status=SUCCESS method=TrainingTest.SearchButton()[pri:0, instance:PMSandTraining.Training.Yogesh.TrainingTest@2706a7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErroScreenshot -->
+        <test-method status="PASS" signature="ClearButton()[pri:0, instance:PMSandTraining.Training.Yogesh.TrainingTest@2706a7]" name="ClearButton" duration-ms="8976" started-at="2016-10-22T16:42:49Z" finished-at="2016-10-22T16:42:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClearButton -->
+        <test-method status="PASS" signature="ErroScreenshot(org.testng.ITestResult)[pri:0, instance:PMSandTraining.Training.Yogesh.TrainingTest@2706a7]" name="ErroScreenshot" is-config="true" duration-ms="0" started-at="2016-10-22T16:42:58Z" finished-at="2016-10-22T16:42:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClearButton status=SUCCESS method=TrainingTest.ClearButton()[pri:0, instance:PMSandTraining.Training.Yogesh.TrainingTest@2706a7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErroScreenshot -->
+        <test-method status="PASS" signature="SelectStartTest()[pri:0, instance:PMSandTraining.Training.Yogesh.TrainingTest@2706a7]" name="SelectStartTest" duration-ms="2367" started-at="2016-10-22T16:42:58Z" finished-at="2016-10-22T16:43:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectStartTest -->
+        <test-method status="PASS" signature="ErroScreenshot(org.testng.ITestResult)[pri:0, instance:PMSandTraining.Training.Yogesh.TrainingTest@2706a7]" name="ErroScreenshot" is-config="true" duration-ms="1" started-at="2016-10-22T16:43:00Z" finished-at="2016-10-22T16:43:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SelectStartTest status=SUCCESS method=TrainingTest.SelectStartTest()[pri:0, instance:PMSandTraining.Training.Yogesh.TrainingTest@2706a7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErroScreenshot -->
+        <test-method status="PASS" signature="TestSubmit()[pri:0, instance:PMSandTraining.Training.Yogesh.TrainingTest@2706a7]" name="TestSubmit" duration-ms="82457" started-at="2016-10-22T16:43:00Z" finished-at="2016-10-22T16:44:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSubmit -->
+        <test-method status="PASS" signature="ErroScreenshot(org.testng.ITestResult)[pri:0, instance:PMSandTraining.Training.Yogesh.TrainingTest@2706a7]" name="ErroScreenshot" is-config="true" duration-ms="0" started-at="2016-10-22T16:44:22Z" finished-at="2016-10-22T16:44:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestSubmit status=SUCCESS method=TrainingTest.TestSubmit()[pri:0, instance:PMSandTraining.Training.Yogesh.TrainingTest@2706a7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErroScreenshot -->
+        <test-method status="FAIL" signature="Logout()[pri:0, instance:PMSandTraining.Training.Yogesh.TrainingTest@2706a7]" name="Logout" is-config="true" duration-ms="0" started-at="2016-10-22T16:44:22Z" finished-at="2016-10-22T16:44:22Z">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[Unexpected modal dialog (text: Record Saved Successfully.): Record Saved Successfully.
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'OSO-DTP-057', ip: '169.254.80.80', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=36.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6a6ea277-7189-4f2f-9a47-e41d22f927dd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: Record Saved Successfully.): Record Saved Successfully.
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'OSO-DTP-057', ip: '169.254.80.80', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=36.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6a6ea277-7189-4f2f-9a47-e41d22f927dd
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.createUnhandledAlertException(ErrorHandler.java:187)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:154)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at baseClass.BaseClass.logout(BaseClass.java:224)
+	at PMSandTraining.Training.Yogesh.TrainingTest.Logout(TrainingTest.java:377)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.afterRun(TestRunner.java:1027)
+	at org.testng.TestRunner.run(TestRunner.java:627)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- PMSandTraining.Training.Yogesh.TrainingTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

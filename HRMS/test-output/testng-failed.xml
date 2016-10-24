@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="PMSandTraining.Training.Yogesh.TrainingTest">
+        <methods>
+          <include name="TestSubmit"/>
+          <include name="baseLogin"/>
+          <include name="ErroScreenshot"/>
+          <include name="Logout"/>
+        </methods>
+      </class> <!-- PMSandTraining.Training.Yogesh.TrainingTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

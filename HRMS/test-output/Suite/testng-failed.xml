@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="2(failed)">
+    <classes>
+      <class name="HRSetup.General.Yogesh.NoticePeriodMaster">
+        <methods>
+          <include name="Login"/>
+          <include name="Logout"/>
+        </methods>
+      </class> <!-- HRSetup.General.Yogesh.NoticePeriodMaster -->
+      <class name="HRSetup.General.Yogesh.QuestionMaster">
+        <methods>
+          <include name="Logout"/>
+          <include name="Login"/>
+          <include name="TestSearchButton"/>
+        </methods>
+      </class> <!-- HRSetup.General.Yogesh.QuestionMaster -->
+      <class name="HRSetup.General.Yogesh.BasicSalaryRange">
+        <methods>
+          <include name="Login"/>
+          <include name="Logout"/>
+        </methods>
+      </class> <!-- HRSetup.General.Yogesh.BasicSalaryRange -->
+    </classes>
+  </test> <!-- 2(failed) -->
+  <test name="1(failed)">
+    <classes>
+      <class name="HRSetup.General.Yogesh.NoticePeriodMaster">
+        <methods>
+          <include name="adminLogin" invocation-numbers="0"/>
+          <include name="Edit"/>
+          <include name="SearchButton"/>
+          <include name="Login"/>
+          <include name="Logout"/>
+          <include name="Delete"/>
+          <include name="ClearSearchButton"/>
+        </methods>
+      </class> <!-- HRSetup.General.Yogesh.NoticePeriodMaster -->
+      <class name="HRSetup.General.Yogesh.QuestionMaster">
+        <methods>
+          <include name="Logout"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- HRSetup.General.Yogesh.QuestionMaster -->
+      <class name="HRSetup.General.Yogesh.BasicSalaryRange">
+        <methods>
+          <include name="Login"/>
+          <include name="Logout"/>
+        </methods>
+      </class> <!-- HRSetup.General.Yogesh.BasicSalaryRange -->
+    </classes>
+  </test> <!-- 1(failed) -->
+  <test name="3(failed)">
+    <classes>
+      <class name="HRSetup.General.Yogesh.NoticePeriodMaster">
+        <methods>
+          <include name="Login"/>
+          <include name="Logout"/>
+        </methods>
+      </class> <!-- HRSetup.General.Yogesh.NoticePeriodMaster -->
+      <class name="HRSetup.General.Yogesh.BasicSalaryRange">
+        <methods>
+          <include name="adminLogin" invocation-numbers="0"/>
+          <include name="Login"/>
+          <include name="Logout"/>
+        </methods>
+      </class> <!-- HRSetup.General.Yogesh.BasicSalaryRange -->
+      <class name="HRSetup.General.Yogesh.QuestionMaster">
+        <methods>
+          <include name="Logout"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- HRSetup.General.Yogesh.QuestionMaster -->
+    </classes>
+  </test> <!-- 3(failed) -->
+</suite> <!-- Failed suite [Suite] -->

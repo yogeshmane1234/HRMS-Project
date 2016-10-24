@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="1">
+  <test name="a">
+    <classes>
+        
+  		 <class name="ELC.Exit.Yogesh.Resignation"/>
+                
+     </classes>
+        
+  </test>  <!-- Test -->
+  
+  <test name="b">
+    <classes>
+   
+       <class name="ELC.Exit.Yogesh.ResignationApproval"/>
+               
+    </classes>
+    
+    </test>
+    
+    <test name="c">
+    <classes>
+   
+       <class name="ELC.Exit.Yogesh.ExitForm"/>
+      </classes>
+    
+    </test> 
+    
+    <test name="d">
+    <classes>
+   
+       <class name="ELC.Exit.Yogesh.ExitInterview"/>
+      </classes>
+    
+    </test> 
+    
+    <test name="e">
+    <classes>
+   
+       <class name="ELC.Exit.Yogesh.LWD"/>
+      </classes>
+    
+    </test> 
+    
+    <test name="f">
+    <classes>
+   
+       <class name="ELC.Exit.Yogesh.HandOverRequest"/>
+      </classes>
+    
+    </test> 
+    
+    <test name="g">
+    <classes>
+   
+       <class name="ELC.Exit.Yogesh.HandOverAcceptance"/>
+      </classes>
+    
+    </test> 
+    </suite>
+       
